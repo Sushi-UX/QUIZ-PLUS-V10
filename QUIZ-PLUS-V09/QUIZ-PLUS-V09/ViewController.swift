@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var answerButtonB: UIButton!
     @IBOutlet weak var answerButtonC: UIButton!
     @IBOutlet weak var answerButtonD: UIButton!
-    var answerButtons: [UIButton?] = []
+    @IBOutlet var answerButtons: [UIButton]!
 
     @IBOutlet weak var playAgainButton: UIButton!
     @IBOutlet weak var timerField: UILabel!
@@ -59,9 +59,9 @@ class ViewController: UIViewController {
         questionField.textColor = UIColor.white
         self.hideAllButtons()
         timerField.text = "" // if not, it shows "Label" for a 0.5 second
-        for (answerButton) in self.answerButtons {
-            answerButton!.tintColor = UIColor.white
-            answerButton?.isHighlighted = false // tried the highlight but it did not look nice
+        for answerButton in answerButtons {
+            answerButton.tintColor = UIColor.white
+            answerButton.isHighlighted = false // tried the highlight but it did not look nice
         }
         
         // display questions and timer
@@ -71,9 +71,10 @@ class ViewController: UIViewController {
         questionField.text = currentQuestion.question
         
         // display only possible answers
-        for i in 0...currentQuestion.options.count-1 {
-            answerButtons[i]!.isHidden = false
-            answerButtons[i]!.setTitle(currentQuestion.options[i], for: .normal)
+        for i in 0..<currentQuestion.options.count {
+            answerButtons[i].isHidden = false
+            
+            answerButtons[i].setTitle(currentQuestion.options[i], for: .normal)
         }
     }
     
@@ -116,7 +117,7 @@ class ViewController: UIViewController {
     
     func hideAllButtons() {
         for answerButton in self.answerButtons{
-            answerButton!.isHidden = true
+            answerButton.isHidden = true
             playAgainButton.isHidden = true
         }
     }
@@ -126,12 +127,13 @@ class ViewController: UIViewController {
         
         // highlight answer buttons
         for (answerButton) in answerButtons {
-            switch answerButton!.title(for: . normal) {
+            switch answerButton.title(for: . normal)
+            {
             case correctAnswer:
-                answerButton!.tintColor = UIColor.green
+                answerButton.tintColor = UIColor.green
             case answer:
-                answerButton!.tintColor = UIColor.red
-            default: answerButton!.tintColor = UIColor.gray
+                answerButton.tintColor = UIColor.red
+            default: answerButton.tintColor = UIColor.gray
             }
         }
         

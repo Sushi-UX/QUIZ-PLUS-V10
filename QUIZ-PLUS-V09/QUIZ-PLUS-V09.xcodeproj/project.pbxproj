@@ -18,7 +18,7 @@
 		FB75083B22E0C9C60021D5B8 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75083A22E0C9C60021D5B8 /* GameManager.swift */; };
 		FB75083D22E0CA020021D5B8 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75083C22E0CA020021D5B8 /* SoundManager.swift */; };
 		FB75083F22E0CB190021D5B8 /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB75083E22E0CB190021D5B8 /* GameSound.wav */; };
-		FB75084122E0CB310021D5B8 /* NoSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB75084022E0CB310021D5B8 /* NoSound.wav */; };
+		FBD743EE22E0EF00005FDA94 /* NoSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FBD743ED22E0EF00005FDA94 /* NoSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		FB75083A22E0C9C60021D5B8 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		FB75083C22E0CA020021D5B8 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		FB75083E22E0CB190021D5B8 /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GameSound.wav; path = ../../../../../Desktop/GameSound.wav; sourceTree = "<group>"; };
-		FB75084022E0CB310021D5B8 /* NoSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = NoSound.wav; path = "../../../../../Desktop/Quiz-master/Quiz/NoSound.wav"; sourceTree = "<group>"; };
+		FBD743ED22E0EF00005FDA94 /* NoSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = NoSound.wav; path = "../../../../../Desktop/Other Students Code/Quiz-master/Quiz/NoSound.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		FB75082022E0C8CC0021D5B8 /* QUIZ-PLUS-V09 */ = {
 			isa = PBXGroup;
 			children = (
-				FB75084022E0CB310021D5B8 /* NoSound.wav */,
+				FBD743ED22E0EF00005FDA94 /* NoSound.wav */,
 				FB75083E22E0CB190021D5B8 /* GameSound.wav */,
 				FB75082122E0C8CC0021D5B8 /* AppDelegate.swift */,
 				FB75082322E0C8CC0021D5B8 /* ViewController.swift */,
@@ -146,8 +146,8 @@
 				FB75083F22E0CB190021D5B8 /* GameSound.wav in Resources */,
 				FB75082F22E0C8CD0021D5B8 /* LaunchScreen.storyboard in Resources */,
 				FB75082C22E0C8CD0021D5B8 /* Assets.xcassets in Resources */,
+				FBD743EE22E0EF00005FDA94 /* NoSound.wav in Resources */,
 				FB75082722E0C8CC0021D5B8 /* Main.storyboard in Resources */,
-				FB75084122E0CB310021D5B8 /* NoSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

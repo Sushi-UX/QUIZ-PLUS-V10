@@ -133,6 +133,14 @@
                         <outlet property="playAgainButton" destination="m1i-Py-GEN" id="nzc-UT-wak"/>
                         <outlet property="questionField" destination="EJz-Qm-jQU" id="LWu-xL-4zz"/>
                         <outlet property="timerField" destination="Nk5-fY-Jze" id="qG5-F7-ecH"/>
+                        <outletCollection property="answerButtonA" destination="MK4-u9-JTJ" collectionClass="NSMutableArray" id="vxQ-Aa-FSW"/>
+                        <outletCollection property="answerButtonB" destination="VOh-lS-BRa" collectionClass="NSMutableArray" id="tiO-e1-SQl"/>
+                        <outletCollection property="answerButtonC" destination="DNg-7j-e2d" collectionClass="NSMutableArray" id="gvG-RF-9N5"/>
+                        <outletCollection property="answerButtonD" destination="L0e-ZQ-2id" collectionClass="NSMutableArray" id="tOq-h3-D6E"/>
+                        <outletCollection property="answerButtonA" destination="MK4-u9-JTJ" collectionClass="NSMutableArray" id="7pw-j7-SED"/>
+                        <outletCollection property="answerButtonB" destination="VOh-lS-BRa" collectionClass="NSMutableArray" id="lom-yu-uIe"/>
+                        <outletCollection property="answerButtonC" destination="DNg-7j-e2d" collectionClass="NSMutableArray" id="H8Y-jv-jP3"/>
+                        <outletCollection property="answerButtonD" destination="L0e-ZQ-2id" collectionClass="NSMutableArray" id="IFH-YU-2Fr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
