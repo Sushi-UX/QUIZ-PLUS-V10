@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:QUIZ-PLUS-V09.xcodeproj">
+      location = "group:/Users/raymondchoy/Documents/Code/QUIZ-PLUS-V10/QUIZ-PLUS-V09/QUIZ-PLUS-V09/GameSound.wav">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
