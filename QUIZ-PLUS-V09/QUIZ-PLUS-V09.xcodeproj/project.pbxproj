@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FB249F6422E4F9180038616A /* NoSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB249F6322E4F9180038616A /* NoSound.wav */; };
-		FB432B4222E4FA8400DF5D40 /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB432B4122E4FA8400DF5D40 /* GameSound.wav */; };
 		FB75082222E0C8CC0021D5B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75082122E0C8CC0021D5B8 /* AppDelegate.swift */; };
 		FB75082422E0C8CC0021D5B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75082322E0C8CC0021D5B8 /* ViewController.swift */; };
 		FB75082722E0C8CC0021D5B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB75082522E0C8CC0021D5B8 /* Main.storyboard */; };
@@ -19,11 +18,11 @@
 		FB75083922E0C9860021D5B8 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75083822E0C9860021D5B8 /* Quiz.swift */; };
 		FB75083B22E0C9C60021D5B8 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75083A22E0C9C60021D5B8 /* GameManager.swift */; };
 		FB75083D22E0CA020021D5B8 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75083C22E0CA020021D5B8 /* SoundManager.swift */; };
+		FB8676B722E500F0006C833A /* GameSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB8676B622E500F0006C833A /* GameSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB249F6322E4F9180038616A /* NoSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = NoSound.wav; sourceTree = "<group>"; };
-		FB432B4122E4FA8400DF5D40 /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = GameSound.wav; path = ../../../../../Desktop/GameSound.wav; sourceTree = "<group>"; };
 		FB75081E22E0C8CC0021D5B8 /* QUIZ-PLUS-V09.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QUIZ-PLUS-V09.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB75082122E0C8CC0021D5B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB75082322E0C8CC0021D5B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		FB75083822E0C9860021D5B8 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		FB75083A22E0C9C60021D5B8 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		FB75083C22E0CA020021D5B8 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		FB8676B622E500F0006C833A /* GameSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameSound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 		FB75082022E0C8CC0021D5B8 /* QUIZ-PLUS-V09 */ = {
 			isa = PBXGroup;
 			children = (
-				FB432B4122E4FA8400DF5D40 /* GameSound.wav */,
+				FB8676B622E500F0006C833A /* GameSound.wav */,
 				FB249F6322E4F9180038616A /* NoSound.wav */,
 				FB75082122E0C8CC0021D5B8 /* AppDelegate.swift */,
 				FB75082322E0C8CC0021D5B8 /* ViewController.swift */,
@@ -147,7 +147,7 @@
 				FB249F6422E4F9180038616A /* NoSound.wav in Resources */,
 				FB75082C22E0C8CD0021D5B8 /* Assets.xcassets in Resources */,
 				FB75082722E0C8CC0021D5B8 /* Main.storyboard in Resources */,
-				FB432B4222E4FA8400DF5D40 /* GameSound.wav in Resources */,
+				FB8676B722E500F0006C833A /* GameSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

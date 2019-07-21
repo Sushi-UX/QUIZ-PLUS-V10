@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/raymondchoy/Documents/Code/QUIZ-PLUS-V10/QUIZ-PLUS-V09/QUIZ-PLUS-V09/GameSound.wav">
+      location = "group:../GameSound.wav">
    </FileRef>
    <FileRef
       location = "self:">
